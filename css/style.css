@@ -7,3 +7,18 @@
 .bg-navbar {
   background-color: rgb(195, 121, 10);
 }
+
+.div-img-principal img {
+  height: 80vh;
+  object-fit: cover;
+}
+
+.style-card-width {
+  width: 18rem;
+}
+
+@media (max-width: 500px) {
+  .style-card-width {
+    width: 100%;
+  }
+}
